@@ -14,5 +14,14 @@
       "matches": ["*://*.youtube.com/*"],
       "js": ["noyoutubemixes.js"]
     }
-  ]
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+
 }
